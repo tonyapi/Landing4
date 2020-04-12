@@ -1,0 +1,86 @@
+body {
+  background: ;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+color: white;
+}
+
+#banner a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#banner a:hover{
+  text-decoration: none;
+  color: RGBA(102, 192, 110, 1.00);
+}
+
+img {
+  width:100px;
+}
+
+#banner{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("images/background.svg");
+  margin: auto;
+  padding: 125px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 90vh;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#banner h1{
+  font-size: 62px;
+}
+
+.card{
+  padding: 25px;
+  font-weight: lighter;
+  margin: 150px 25px 150px 25px;
+  align-items: center;
+}
+
+#banner p {
+  color: white;
+  padding: 25px 0px 75px 0px;
+  font-size: 24px;
+}
+
+#footer a {
+  color: lightgrey;
+  opacity: .5;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: lightgrey;
+  opacity: 1;
+}
+
+#footer ul {
+  text-decoration: none;
+  list-style-type: none;
+  text align: center;
+}
+
+
+#footer li {
+  padding: 15px;
+  text align: center;
+  display: inline-block;
+  font-size: 18px;
+}
+
+
+#footer {
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  text align: center;
+  align-items: center;
+}
